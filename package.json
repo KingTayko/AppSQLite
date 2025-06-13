@@ -1,0 +1,41 @@
+{
+  "name": "appsqlite",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "deploy": "npx expo export -p web && npx eas-cli@latest deploy"
+  },
+  "dependencies": {
+    "@react-navigation/drawer": "^7.3.9",
+    "@types/react": "~18.3.12",
+    "expo": "^53.0.0",
+    "expo-constants": "~17.1.6",
+    "expo-crypto": "~14.1.5",
+    "expo-linking": "~7.1.5",
+    "expo-router": "~5.0.7",
+    "expo-splash-screen": "~0.30.9",
+    "expo-sqlite": "~15.2.12",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "^0.79.3",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-web": "^0.20.0",
+    "typescript": "^5.3.3",
+    "wa-sqlite": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@types/react": "~19.0.10",
+    "@types/react-native": "^0.73.0",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
